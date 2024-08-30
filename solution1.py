@@ -19,4 +19,12 @@ print(reverse_string("word"))
 print(reverse_string("race car here"))     
 
 
- 
+def count_vowels(text):
+    vowels = 'aeiouAEIOU'
+    total_vowels = sum(text.count(vowel) for vowel in vowels)
+    return total_vowels
+
+print(count_vowels('python is a cool language'))       
+
+
+
