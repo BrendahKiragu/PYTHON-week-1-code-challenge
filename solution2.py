@@ -30,4 +30,10 @@ def apply_decorator(func):
         print("Decorator Applied")
         func()
     return decorator_func  
-print(apply_decorator)
+
+
+# uncomment the function below to see an example of how the above decorator function is applied
+# @apply_decorator
+# def example_decorated_func():
+#     pass
+# example_decorated_func()
