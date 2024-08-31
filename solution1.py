@@ -1,8 +1,10 @@
+# takes two parameters num1 and num2, and returns the sum of the two numbers.
 def add_numbers(num1, num2):
      return num1 + num2
 print(add_numbers(2,4) ) 
 
 
+# takes a single parameter number and returns True if the number is even, and False otherwise.
 def is_even(number):
     if number % 2 ==0:
          return True
@@ -12,6 +14,7 @@ print(is_even(30))
 print(is_even(33))    
 
 
+# takes a string text as input and returns the reversed version of that string.
 def reverse_string(text):
     #  reverse the input (text)
      reversed_text = "".join(reversed(text))
@@ -19,26 +22,3 @@ def reverse_string(text):
     
 print(reverse_string("word"))     
 print(reverse_string("race car here"))     
-
-
-def count_vowels(text):
-    vowels = 'aeiouAEIOU'
-    total_vowels = sum(text.count(vowel) for vowel in vowels)
-    return total_vowels
-
-print(count_vowels('python is a cool language'))       
-
-
-def calculate_factorial(n):
-    if n < 0:
-         return "Factorial not applicable to negative numbers"
-    elif n == 0:
-         return 1
-    
-    factorial = 1
-  # iterates thru numbers from 1 to n and multiplies each i with the current value of factorial
-    for i in range (1, n+1):
-        factorial = factorial * i
-    return factorial  
-   
-print(calculate_factorial(5))     
