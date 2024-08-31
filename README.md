@@ -37,9 +37,9 @@ The repository is organized as follows:
 ├── solution1.py ├── solution2.py ├── solution3.py └── README.md
 
 
-- _solution1.py:_ Contains basic functions for arithmetic, string manipulation, and condition checking.
-- _solution2.py:_ Includes functions for working with lists, counting elements, and applying decorators.
-- _solution3.py:_ Focuses on sorting, dictionary operations, and object-oriented programming.
+- _solution1.py:_ Contains basic functions for arithmetic, condition checking and string manipulation.
+- _solution2.py:_ Includes functions for counting elements, calculating factorial and applying decorators.
+- _solution3.py:_ Focuses on sorting, merging dictionary, and object-oriented programming classes.
 
 ---
 
@@ -100,9 +100,11 @@ The repository is organized as follows:
    git clone https://github.com/your-username/python-week1-challenge.git
 
 2.  Navigate to the project directory:
-     cd python-week1-challenge
+   cd python-week1-challenge 
+    
 
 3. Run any solution script on the terminal as follows:
-     python3 solution1.py 
-     python3 solution2.py 
-     python3 solution3.py 
+
+    - python3 solution1.py 
+    - python3 solution2.py 
+    - python3 solution3.py 
